@@ -53,4 +53,5 @@ This model had a balanced accuracy score of 92.54%, a total precision score of 0
 
 ### Recommendations
 In summary, applying the resampling methods to our initial Logist Regression model did not significantly improve the accuracy of the model. However, applying the resampling methods to our Ensemble Classifier models resulted in a significant increase to our overall accuracy. 
+
 It is our recommendation that our customer use the Easy Ensemble AdaBoosted Classifier model to predict credit risk of unbalanced data as this model holds the highest balanced accuracy score and has a high precision score for low_risk. However, the Lender is advised this model is an effective classifier for low_risk loans and shows significant False Negative errors. This is a situation where the Lender may reject customers whom should be eligible, potentially missing the opportunity cost of revenues and profits. However, Lender can be assured the model catches all actual high risk applications.
